@@ -1,0 +1,206 @@
+.dark-blue{
+	background-color:#162e4f;
+}
+.dark-blue-text{
+	color:#162e4f;
+}
+#oculto{
+	display:none;
+}
+.np{
+	padding:0px !important;
+}
+.nm{
+	margin:0px !important;
+}
+.nr{
+	border-radius:0px !important;
+}
+.suave{
+	transition-duration:0.3s;
+	-webkit-transition-duration:0.3s;
+	-moz-transition-duration:0.3s;
+	-ms-transition-duration:0.3s;
+	-o-transition-duration:0.3s;
+}
+.suave:hover{
+	transition-duration:0.3s;
+	-webkit-transition-duration:0.3s;
+	-moz-transition-duration:0.3s;
+	-ms-transition-duration:0.3s;
+	-o-transition-duration:0.3s;
+}
+.hover-base{
+	overflow:hidden;
+	position:relative;
+}
+.hover{
+	width:100%;
+	height:100%;
+	position:absolute;
+	z-index:1;
+	background-color:rgba(0,0,0,.4);
+	opacity:0;
+	transform:scale(0.7,0.7);
+	-webkit-transform:scale(0.7,0.7);
+	-moz-transform:scale(0.7,0.7);
+	-ms-transform:scale(0.7,0.7);
+	-o-transform:scale(0.7,0.7);
+}
+.hover-base:hover .hover{
+	opacity:1;
+	transform:scale(1,1);
+	-webkit-transform:scale(1,1);
+	-moz-transform:scale(1,1);
+	-ms-transform:scale(1,1);
+	-o-transform:scale(1,1);
+}
+
+/******************************************************************/
+
+.pelicula{
+	background-image:url(../img/patern.png);
+	background-size:contain;
+	width:100%;
+	height:100%;
+	position:absolute;
+	top:0;
+}
+.slide{
+	width:100%;
+	height:500px;
+	overflow:hidden;
+}
+.slide .itemSlide p a{
+	margin:5px;
+}
+.slide .itemSlide img{
+	margin-top:-20%;
+}
+.slide .container{
+	margin-top:140px;
+}
+#slide2, #slide3{
+	display:none;
+}
+#slide2 .slide{
+	height:350px;
+}
+#slide2 .slide .container{
+	margin-top:70px;
+}
+#slide3 .slide{
+	height:150px;
+}
+#slide3 .slide .container{
+	margin-top:10px;
+}
+
+#canais{
+	padding:30px 0px 50px 0px;
+}
+#canais p{
+	margin-top:30px;
+}
+#canais .row:nth-child(2) .col{
+	padding:5px;
+}
+
+#vantagens{
+	background-image:url(../img/patern2.png);
+	padding:40px 0px 50px 0px;
+}
+#vantagens span{
+	font-size:16px;
+	font-weight:normal;
+}
+#vantagens .hover span{
+	padding:10px;
+	display:block;
+}
+#vantagens .hover p{
+	padding:0px 10px;
+}
+
+#recursos{
+	padding:30px 0px 50px 0px;
+}
+#recursos p{
+	text-align:center;
+}
+
+#clientes-1{
+	background-image:url(../img/patern.png), url(../img/banner/banner-5.jpg);
+	background-attachment:inherit ,fixed;
+	background-position:top center;
+	background-repeat:repeat, no-repeat;
+	background-size:cover;
+	padding:40px 0px 105px 0px;
+}
+#clientes-2{
+	margin-top:-105px;
+}
+
+#contato{
+	padding:30px 0px;
+}
+
+#quadro{
+	background-image:url(../img/patern2.png);
+	padding:100px 20px;
+}
+
+#quemSomos{
+	padding:30px 0px 0px 0px;
+}
+
+#porque{
+	padding:30px 0px 50px 0px;
+}
+#quero{
+	position:absolute;
+	z-index:0;
+	width:100%;
+	height:100%;
+	background-color:rgba(0,0,0,.5);
+	opacity:0;
+}
+#quero .exit{
+	position:absolute;
+	right:-100px;
+	top:20px;
+}
+.quero-container{
+	
+}
+#quero video{
+	width:100%;
+}
+
+#orcamento{
+	padding:30px 0px 20px 0px;
+}
+
+@media only screen and (max-width: 480px) {
+	.container{
+		padding:0px;
+	}
+	
+	h2{
+		font-size:36px;
+		font-weight:lighter !important;
+		margin:0px;
+	}
+	
+	#canais,
+	#vantagens,
+	#recursos,
+	#contato
+	{
+		padding:20px 0px 20px 0px;
+	}
+	
+	#vantagens h2{
+		padding-bottom:0px !important;
+	}
+}
